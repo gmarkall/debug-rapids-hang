@@ -3,7 +3,7 @@ target triple = "nvptx64-nvidia-cuda"
 target datalayout = "e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64"
 
 @"_ZN08NumbaEnv16test_string_udfs18test_string_udf_eq12_3clocals_3e4funcB2v2B100cw51cXTLSUwv1sDUaKthqaNgoKmjgOR3W3CwAkMQkR5sQekNGN5oUY8kDEllSAKoKQcmgeQT22p1IEvdSsFYR0EdFtJALtjNtZoAE10udf_string" = common global i8* null
-define i32 @"_ZN16test_string_udfs18test_string_udf_eq12_3clocals_3e4funcB2v2B100cw51cXTLSUwv1sDUaKthqaNgoKmjgOR3W3CwAkMQkR5sQekNGN5oUY8kDEllSAKoKQcmgeQT22p1IEvdSsFYR0EdFtJALtjNtZoAE10udf_string"(i8* %".ret", i8* %"arg.st.0", i32 %"arg.st.1", i32 %"arg.st.2") alwaysinline
+define i32 @"_ZN16test_string_udfs18test_string_udf_eq12_3clocals_3e4funcB2v2B100cw51cXTLSUwv1sDUaKthqaNgoKmjgOR3W3CwAkMQkR5sQekNGN5oUY8kDEllSAKoKQcmgeQT22p1IEvdSsFYR0EdFtJALtjNtZoAE10udf_string"(i8* %".ret", i8* %"arg.st.0", i32 %"arg.st.1", i32 %"arg.st.2")
 {
 entry:
   %"inserted.m_data" = insertvalue {i8*, i32, i32} undef, i8* %"arg.st.0", 0
