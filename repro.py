@@ -1,11 +1,8 @@
 from numba.cuda.cudadrv import nvvm
 
 filenames = (
-    "01_call_create_string_view.ll",
-    "02_eq_impl.ll",
     "03_strst_string_udf_eq.ll",
     "05_udf_string_kernel.ll",
-    "04_call_create_string.ll"
 )
 
 irs = []
