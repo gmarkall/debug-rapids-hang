@@ -162,7 +162,7 @@ declare i32 @"_ZN16test_string_udfs18test_string_udf_eq12_3clocals_3e4funcB2v2B1
 @"llvm.used" = appending global [1 x i8*] [i8* bitcast (void ({i8*, i32, i32}*, i8*, i8*, i64, i64, i8*, i64, i64)* @"_ZN16test_string_udfs12run_udf_test12_3clocals_3e18_udf_string_kernelB2v1B102cw51cXTLSUwv1sDUaKthqaNgoKmjgOR3W3CwAkMQkR5sQekNGN5oUY8kDEllSAKoKQcmgeQT22p1WPiqWylA40kdKAnkGddqAgA_3dE14string_view_2a5ArrayIbLi1E1C7mutable7alignedE" to i8*)], section "llvm.metadata"
 !nvvmir.version = !{ !0 }
 !nvvm.annotations = !{ !3 }
-!0 = !{ i32 1, i32 9, i32 3, i32 1 }
+!0 = !{ i32 2, i32 0, i32 3, i32 1 }
 !1 = !{ !"branch_weights", i32 1, i32 99 }
 !2 = !{ i64 0, i64 9223372036854775807 }
 !3 = !{ void ({i8*, i32, i32}*, i8*, i8*, i64, i64, i8*, i64, i64)* @"_ZN16test_string_udfs12run_udf_test12_3clocals_3e18_udf_string_kernelB2v1B102cw51cXTLSUwv1sDUaKthqaNgoKmjgOR3W3CwAkMQkR5sQekNGN5oUY8kDEllSAKoKQcmgeQT22p1WPiqWylA40kdKAnkGddqAgA_3dE14string_view_2a5ArrayIbLi1E1C7mutable7alignedE", !"kernel", i32 1 }

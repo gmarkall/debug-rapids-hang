@@ -3,7 +3,7 @@ target triple = "nvptx64-nvidia-cuda"
 target datalayout = "e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-i128:128:128-f32:32:32-f64:64:64-v16:16:16-v32:32:32-v64:64:64-v128:128:128-n16:32:64"
 
 @"_ZN08NumbaEnv16test_string_udfs18test_string_udf_eq12_3clocals_3e4funcB2v2B100cw51cXTLSUwv1sDUaKthqaNgoKmjgOR3W3CwAkMQkR5sQekNGN5oUY8kDEllSAKoKQcmgeQT22p1IEvdSsFYR0EdFtJALtjNtZoAE10udf_string" = common global i8* null
-define i32 @"_ZN16test_string_udfs18test_string_udf_eq12_3clocals_3e4funcB2v2B100cw51cXTLSUwv1sDUaKthqaNgoKmjgOR3W3CwAkMQkR5sQekNGN5oUY8kDEllSAKoKQcmgeQT22p1IEvdSsFYR0EdFtJALtjNtZoAE10udf_string"(i8* %".ret", i8* %"arg.st.0", i32 %"arg.st.1", i32 %"arg.st.2")
+define i32 @"_ZN16test_string_udfs18test_string_udf_eq12_3clocals_3e4funcB2v2B100cw51cXTLSUwv1sDUaKthqaNgoKmjgOR3W3CwAkMQkR5sQekNGN5oUY8kDEllSAKoKQcmgeQT22p1IEvdSsFYR0EdFtJALtjNtZoAE10udf_string"(i8* %".ret", i8* %"arg.st.0", i32 %"arg.st.1", i32 %"arg.st.2") alwaysinline
 {
 entry:
   %"inserted.m_data" = insertvalue {i8*, i32, i32} undef, i8* %"arg.st.0", 0
@@ -90,5 +90,5 @@ declare i32 @"_ZN4cudf4core3udf16strings_lowering39call_create_string_view_from_
 declare i32 @"_ZN4cudf4core3udf16strings_lowering7eq_implB2v4B40c8tJTC_2fWQA93W1AaAIYBPIqRBFCjDSyhCQA_3dE14string_view_2a14string_view_2a"(i8* %".ret", {i8*, i32, i32}* %"arg.st", {i8*, i32, i32}* %"arg.rhs")
 
 !nvvmir.version = !{ !0 }
-!0 = !{ i32 1, i32 9, i32 3, i32 1 }
+!0 = !{ i32 2, i32 0, i32 3, i32 1 }
 !1 = !{ !"branch_weights", i32 1, i32 99 }
